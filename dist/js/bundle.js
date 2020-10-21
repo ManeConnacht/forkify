@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Imported module123456789"),console.log("Imported number 23 from test.js")})();
