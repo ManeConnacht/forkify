@@ -1,2 +1,2 @@
-console.log('Imported module123456789');
+console.log('start script execution test.js ');
 export default 23;

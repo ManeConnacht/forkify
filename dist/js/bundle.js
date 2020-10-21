@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("Imported module123456789"),console.log("Imported number 23 from test.js")})();
+(()=>{"use strict";console.log("start script execution test.js "),console.log("Imported number 23 from test.js")})();
