@@ -1,21 +1,39 @@
 {
   "name": "forkify",
-  "version": "1.0.1",
-  "description": "forkify description",
+  "version": "1.0.2",
+  "description": "forkify application",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "start": "webpack serve --hot --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManeConnacht/forkify.git"
   },
   "keywords": [
     "#js",
-    "#foodapp"
+    "#forkify"
   ],
   "author": "Mitin Anton",
   "license": "ISC",
-  "devDependencies": {
-    "webpack": "^5.1.3",
-    "webpack-cli": "^4.1.0"
+  "bugs": {
+    "url": "https://github.com/ManeConnacht/forkify/issues"
   },
-  "dependencies": {}
+  "homepage": "https://github.com/ManeConnacht/forkify#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^3.6.5",
+    "regenerator-runtime": "^0.13.7"
+  }
 }
